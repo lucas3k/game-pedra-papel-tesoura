@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <title>Pedra Papel Tesoura - Game</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-game">
+      <main>
+        <!-- inicio botões de controle -->
+        <div class="buttons">
+          <button class="button" data-btn="btn-pedra">Pedra</button>
+          <button class="button" data-btn="btn-papel">Papel</button>
+          <button class="button" data-btn="btn-tesoura">Tesoura</button>
+        </div>
+        <!-- fim botões de controle -->
+
+        <!-- inicio do resultado -->
+        <div class="result" data-result="container-result">
+          <div class="result-text">
+            <p data-result="result-value">Você ganhou!!!</p>
+          </div>
+
+          <div class="result-image">
+            <p>Computador escolheu:</p>
+            <img class="img" data-result="img-pc" src="images/papel.png" alt="" data-result="result-image-pc" />
+          </div>
+
+          <div class="result-image">
+            <p>Usuário escolheu:</p>
+            <img class="img" data-result="img-user" src="images/tesoura.png" alt="" data-result="result-image-user" />
+          </div>
+      </main>
+      <!-- fim do resultado -->
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

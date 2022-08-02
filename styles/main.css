@@ -1,0 +1,8 @@
+/* styles reset css */
+@import "./reset.css";
+
+/* global styles */
+@import "./global.css";
+
+/* game styles */
+@import "./game.css";
